@@ -49,8 +49,8 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-//    devDebugImplementation project(path: ':wx', configuration: 'devDebug')
-//    devReleaseImplementation project(path: ':wx', configuration: 'devRelease')
-//    officialDebugImplementation project(path: ':wx', configuration: 'officialDebug')
-//    officialReleaseImplementation project(path: ':wx', configuration: 'officialRelease')
+    devDebugImplementation project(path: ':wx', configuration: 'devDebug')
+    devReleaseImplementation project(path: ':wx', configuration: 'devRelease')
+    officialDebugImplementation project(path: ':wx', configuration: 'officialDebug')
+    officialReleaseImplementation project(path: ':wx', configuration: 'officialRelease')
 }

@@ -24,14 +24,23 @@ android {
         }
     }
 
+    flavorDimensions "normal"
+
+    productFlavors {
+        dev {
+        }
+        official {
+        }
+    }
+
     publishNonDefault true
 }
 
 configurations {
-    devDebugImplementation
-    devReleaseImplementation
-    officialDebugImplementation
-    officialReleaseImplementation
+    devDebugApi
+    devReleaseApi
+    officialDebugApi
+    officialReleaseApi
 }
 
 dependencies {
@@ -42,8 +51,8 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-    devDebugImplementation project(':wxtest')
-    devReleaseImplementation project(':wxtest')
-    officialDebugImplementation project(':wxofficial')
-    officialReleaseImplementation project(':wxofficial')
+    devDebugApi project(':wxtest')
+    devReleaseApi project(':wxtest')
+    officialDebugApi project(':wxofficial')
+    officialReleaseApi project(':wxofficial')
 }
