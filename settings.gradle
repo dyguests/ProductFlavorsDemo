@@ -1,1 +1,1 @@
-include ':app', ':wxapi'
+include ':app', ':wxapi', ':wxtest', ':wxofficial'
