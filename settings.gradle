@@ -1,1 +1,1 @@
-include ':app', ':wxtest', ':wxofficial', ':wx'
+include ':app'
