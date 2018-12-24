@@ -22,6 +22,21 @@ android {
         }
     }
 
+    flavorDimensions "normal"
+
+    productFlavors {
+        dev {
+        }
+        official {
+        }
+    }
+}
+
+configurations {
+    devDebugApi
+    devReleaseApi
+    officialDebugApi
+    officialReleaseApi
 }
 
 dependencies {
