@@ -1,10 +1,10 @@
-# WechatDemo
+# ProductFlavorsDemo
 
-A demo for Wechat.
+A demo for ProductFlavors.
 
 Product Flavors for Android Library，多渠道依赖。
 
-# 参考
+# Reference
 
 [Product Flavors for Android Library](https://android.jlelse.eu/product-flavors-for-android-library-d3b2d240fca2)
 
